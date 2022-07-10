@@ -1,7 +1,7 @@
 ## House-price-prediction
 
 # Flask application deployed on Heroku
-This is an example of Flask deployed on Heroku, try it out: https://price-predictor-3.herokuapp.com/
+This is an example of Flask app deployed on Heroku, try it out: https://price-predictor-3.herokuapp.com/
 
 # Description
 A simple linear regression model to predict house prices based on some features (number of rooms, age of house and number of household members).
