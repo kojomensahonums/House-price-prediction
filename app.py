@@ -15,7 +15,6 @@ def predict():
     int_features= [int(x) for x in request.form.values()]
     final_features= [np.array(int_features)]
     prediction= model.predict(final_features)
-    prediction=np.argmax(prediction, axis=1)
     
     output= np.round(prediction[0]*100000, 2)
     
